@@ -1,0 +1,100 @@
+#__pinCollector__ * {
+    margin: 0;
+    padding: 0;
+}
+#__pinCollector__ {
+    font-family: 'helvetica neue',arial,sans-serif;
+    font-size: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100000003;
+}
+#__pinCollector__ .pinner-controller {
+    background: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 34px;
+    left: 0;
+    line-height: 34px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 100%;
+    z-index: 10000004;
+}
+#__pinCollector__ .pinner-controller:hover {
+    background: #1389E5;
+    color: #FFFFFF;
+}
+#__pinCollector__ .pinner-mask {
+    background: #F2F2F2;
+    opacity: 0.95;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+#__pinCollector__ .pinner-list {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 11;
+}
+#__pinCollector__ ul {
+    border-left: 1px solid #EEEEEE;
+    float: left;
+    overflow: hidden;
+}
+#__pinCollector__ li {
+    background: #FFFFFF;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+#__pinCollector__ li img {
+    display: block;
+    margin: 0 auto;
+}
+#__pinCollector__ .pinpicker-tip {
+    background:red;
+    color: #FFFFFF;
+    height: 30px;
+    left: 50px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 85px;
+    width: 100px;
+}
+#__pinCollector__ .pinpicker-size {
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    bottom: 4px;
+    font-size: 10px;
+    height: 20px;
+    left: 68px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+.__pinpicker-tiper__ {
+    background: #FFFFFF;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 24px;
+    padding: 2px 6px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    z-index: 1999999999;
+}
+
